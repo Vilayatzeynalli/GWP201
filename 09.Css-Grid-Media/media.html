@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ #img1{
+    width: 200px;
+    display: block;
+}
+#img2{
+    display: none ;
+
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50px;
+}
+.text{
+    width: 600px;
+}
+.text2::after{
+    content: "";
+    border: 2px solid red;
+    width: 100px;
+    display: block;
+}
+@media screen and (max-width: 768px;)
+ { section{
+    flex-direction: column;
+
+ }
+ #img2{
+    display: block;
+    width: 500px;
+ }
+ #img1{
+    display: none;
+ }
+    
+    
+}
+
+    </style>
+</head>
+<body>
+    
+        <section>
+            <div class="media">
+                <img id="img1" src="images.jpg" alt="">
+                <img id="img2" src="images (1).jpg" alt="">
+            </div>
+                <div class="text"><h1 class="text2">Hi, there. What's app?</h1>
+               <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptatum ipsam esse aperiam dicta nemo facere minima a eveniet officia?</p></div>
+            
+        </section>
+    <
+    
+</body>
+</html>
