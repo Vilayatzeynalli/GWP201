@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+        
+        header{
+            padding: 20px 0;
+            background-color: bisque;
+        }
+       .text2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
+       }
+       .text3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-shadow: 3px 2px;
+       }
+     .text4{
+        color: orange;
+     }
+     .text3{
+        font-size: 40px;
+     }
+      .text4{
+        font-size: 40px;
+     }
+     .text2 nav ul{
+        display: flex;
+        column-gap: 30px;
+        
+     }
+     .background{
+        background-color: bisque;
+     }
+     .text6{
+        display: flex;
+        align-items: center;
+        height: 100vh;
+     }
+     .text8{
+        font-size: 60px;
+        color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+     }
+     .text8::before{
+        content: "";
+        border: 2px solid orange;
+        width: 90px;
+        display: block;
+
+     }
+     .text12 img{
+        width: 250px;
+        border: 3px solid orange;
+        border-radius: 5px;
+        }
+     .text12{
+        display: flex;
+        align-items: center;
+        margin-right: 300px;
+       
+     }
+     .text14{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-right: 100px;
+     }
+     .text6 .text11, 
+     .text6 .text7  {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+     }
+     .text6 .text7{
+        flex-direction: column;
+        row-gap: 20px;
+     }
+    .text6 .text7{
+        display: flex;
+        align-items: center;
+        margin-left: 200px;
+    }
+   .text9{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+   }
+   .text13{
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .text13:hover{
+    background-color: beige;
+   }
+   .text10{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: 25px;
+   }
+   .page4{
+    width: 250px;
+    border: 3px solid orange;
+    border-radius: 5px;
+    position: relative;
+    
+   }
+.page6{
+    width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+   .page5{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .page5::after{
+    content: "";
+    border: 2px solid orange;
+        width: 80px;
+        display: block;
+    }
+    .page3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+    }
+    .page3{
+        padding: 100px;
+    }
+    .background2{
+        height: 100vh;
+        background-color: azure;
+
+    }
+    .page8{
+        background-color: orange;
+        width: 100px;
+        height: 35px;
+        border-radius: 8px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .page8:hover{
+        background-color: antiquewhite;
+
+    }
+    
+    .background3{
+        height: 90vh;
+        background-color: gainsboro;
+    }
+    .hero1{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .hero3{
+        border: 1px solid wheat;
+        background-color: aliceblue;
+        width: 270px;
+        height: 270px;
+        border-radius: 8px;
+    }
+    .hero6{
+        border: 1px solid wheat;
+        background-color: aliceblue;
+        width: 270px;
+        height: 270px;
+        border-radius: 8px;
+    }
+    .hero9{
+        border: 1px solid wheat;
+        background-color: aliceblue;
+        width: 270px;
+        height: 270px;
+        border-radius: 8px;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        padding: 40px;
+    }
+   .hero12{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 5px;
+    padding: 100px;
+    font-size: 13;
+    color: blue;
+   }
+  .hero13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .hero4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+  }
+  .hero14{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .hero7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+  }
+  .hero15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  .hero10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+  }
+.hero3:hover{
+    background-color: orange;
+}
+.hero6:hover{
+    background-color: orange;
+}
+.hero9:hover{
+    background-color: orange;
+}
+.hero5{
+    margin-left: 15px;
+}
+.hero8{
+    margin-left: 15px;
+}
+.hero11{
+    margin-left: 15px;
+}
+.hero3{
+    padding: 20px;
+}
+.hero6{
+    padding: 20px;
+}
+.hero9{
+    padding: 20px;
+}
+.background4{
+    height: 20vh;
+    background-color: black;
+}
+.box1{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    font-size: 20px;
+    color: orange;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+ <div class="text1">
+    <div class="text2">  
+    <div class="text3">John<span class="text4">Doe</span></div>
+    <nav>
+        <ul class="text14">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Projects</a></li>
+            <li><a href="">Contact</a></li>
+         </ul>
+     </nav>
+ </div>
+</div>
+</header>
+<header>
+<section class="background">
+
+        <div class="text6">
+            <div class="text7">
+                <h1 class="text8">I'am John</h1>
+                <p class="text9">Freelance Web & Mobile UI/UX Designer</p>
+               <button  class="text13">HIRE ME</button>
+                <div class="text10">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-squarespace"></i>
+                    <i class="fa-brands fa-behance"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+            <div class="text11">
+                <div class="text12">
+                    <img src="hero-img.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+</section>
+</header>
+<section class="background2">
+       
+            <div class="page3">
+               <div><img class="page4" src="hero-img.jpeg" alt=""></div> 
+                <div class="page7"><h1 class="page5" >About</h1><br>
+                <p class="page6" >The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, skill-based instruction centered around a visual communications perspective, rather than on one focused on marketing or programming alone.
+                    In this sequence of four courses, you will summarize and demonstrate all stages of the UI/UX development process, from user research to defining a project’s strategy, scope, and information architecture, to developing sitemaps and wireframes.</p><br>
+                 <button class="page8">ABOUT ME</button>
+                </div>
+             </div>
+</section>
+<section class="background3">
+    <div class="hero1">
+    <div class="hero2">
+        <h1 class="hero">Services</h1>
+ </div>
+ <div class="hero12">
+ <div class="hero3">
+    <div class="hero13"><i class="fa-solid fa-code"></i></div>
+    <h3 class="hero4">Web Development</h3><br>
+    <p class="hero5">Web developer, internet üzerindeki web sitelerinin tasarım, geliştirme, bakım ve güncelleme işlemlerini yapan kişidir.</p>
+  </div>
+  <div class="hero6">
+   <div class="hero14"> <i class="fa-brands fa-sketch"></i></div>
+    <h3 class="hero7">Web Design</h3><br>
+    <p class="hero8">Starting a website is much easier and cheaper than  it used to be thanks to the wide variety of user-friendly. </p>
+  </div>
+  <div class="hero9">
+   <div class="hero15"> <i class="fa-solid fa-ghost"></i></div>
+    <h3 class="hero10">App Design</h3><br>
+    <p class="hero11">Andersen builds outstanding native iOS and Android-based apps from scratch. On top of that.</p>
+  </div>
+</div>
+</div>
+</section>
+<section class="background4">
+    <div class="box1">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-squarespace"></i>
+        <i class="fa-brands fa-behance"></i>
+        <i class="fa-brands fa-instagram"></i>
+    </div>
+    <div class="box2">
+    <p>@2022 John Doe All Rights Reserved</p>
+    </div>
+</section>
+</body>
+</html>
