@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        .text3{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            position: fixed;
+            width: 1350px;
+        }
+        .text3{
+            background-color: black;
+            color: white;
+            height: 50px;
+        }
+        .hover1:hover{
+            border: 2px solid white;
+            background-color: white;
+        }
+        .hover2:hover{
+            border: 2px solid white;
+            background-color: white;
+        }
+        .hover3:hover{
+            border: 2px solid white;
+            background-color: white;
+        }
+        .hover4:hover{
+            border: 2px solid white;
+            background-color: white;
+        }
+        .hover5:hover{
+            border: 2px solid white;
+            background-color: white;
+        }
+        .hover6:hover{
+            border: 2px solid white;
+            background-color: white;
+        }
+        .hover7{
+            display: none;
+        }
+        .text4{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 200px;
+            gap: 20px;
+        }
+        .text5::after{
+            content: "";
+            display: block;
+            border: 2px solid orange;
+            width: 50px;
+        }
+        .text5{
+            font-size: 20px;
+        }
+        .text6{
+            font-size: 30px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: orange;
+        }
+        .text7{
+            text-align: center;
+            width: 400px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .sect1{
+            background-image: url(WhatsApp\ Image\ 2023-03-27\ at\ 16.25.54.jpeg);
+            height: 100vh;
+        }
+        .sect2{
+            background-image: url(WhatsApp\ Image\ 2023-03-27\ at\ 16.25.55.jpeg);
+            height: 100vh;
+            background-attachment: fixed;
+        }
+        .sect3{
+            height: 100vh;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            border: 1px solid orange;
+        }
+        .boxes{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            padding: 40px;
+        }
+        .boxes{
+            border: 2px solid orange;
+        }
+        .box{
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box1{
+            position: relative;
+            margin-top: 70px;
+            margin-right: -70px;
+            background-color: red;
+        }
+        .box2{
+            position: relative;
+            margin-left: -100px;
+            margin-top: -80px;
+            background-color: blue;
+        }
+        .box3{
+            position: relative;
+            margin-top: -80px;
+            margin-left: -200px;
+            background-color: yellow;
+
+        }
+        .box4{
+          position: relative;
+          margin-left: 80px;
+          margin-top: -180px;
+          background-color: brown;
+        }
+        .box5{
+            position: relative;
+            margin-left: 50px;
+            margin-top: -100px;
+            background-color: orange;
+        }
+        .text8{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+        }
+        @media only screen and (max-width: 991px) {
+            .text3{
+            position: fixed;
+            width: 1000px;
+        }
+            
+        }
+        @media only screen and (max-width: 767px) {
+            .text3{
+            position: fixed;
+            width: 750px;
+        }
+        .text3 .hover2{
+            display: none;
+        }
+        .text3 .hover3{
+            display: none;
+        }
+        .text3 .hover4{
+            display: none;
+        }
+        .text3 .hover5{
+            display: none;
+        }
+        .text3 .hover6{
+            display: none;
+        }
+        .text3 .hover7{
+            display: flex;
+        }
+        .sect1{
+            display: none;
+        }
+            
+        }
+        @media only screen and (max-width: 991px) {
+            .container .box{
+             flex-direction: column;
+            }
+            .container .box{
+                width: 100px;
+            }
+          
+        }
+       
+    </style>
+</head>
+<body>
+    <header class="text1">
+        <div class="text2">
+            <nav>
+                <ul class="text3">
+                    <li class="hover1"><a href="">Home</a></li>
+                    <li class="hover2"><a href="">About</a></li>
+                    <li class="hover3"><a href="">Shop</a></li>
+                    <li class="hover4"><a href="">Contact</a></li>
+                    <li class="hover5"><a href="">More</a></li>
+                    <li class="hover6"><a href=""><i class="fa-solid fa-magnifying-glass fa-fade"></i></a></li>
+                    <li class="hover7"><a href=""><i class="fa-solid fa-bars fa-fade"></i></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="sect1">
+       <div class="text4">
+        <span class="text5">We are</span><span class="text6">Front end Developer</span>
+         <p class="text7">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo veniam totam optio. Nesciunt commodi nemo iusto itaque accusamus incidunt aut at. Nihil rerum quidem quam! Delectus cupiditate vel sit nisi.</p>
+    </div>
+    </section>
+    <section class="sect2">
+
+    </section>
+    <section class="sect3">
+        <div class="container">
+            <h1 class="text8">Positions</h1>
+            <div class="boxes">
+                <div class="box box1">1</div>
+                <div class="box box2">2</div>
+                <div class="box box3">3</div>
+                <div class="box box4">4</div>
+                <div class="box box5">5</div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
