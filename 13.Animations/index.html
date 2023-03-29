@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            margin: 20px;   
+            transition: all 1s;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 200px;
+        }
+        .box1{
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box2{
+            background-color: red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box3{
+            background-color: green;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box4{
+            background-color: brown;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sect1{
+            background-color: bisque;
+        }
+        .box h2{
+            display: none;
+        }
+        .box:hover h2{
+            display: block;
+        }
+        .box:hover h1{
+            display: none;
+        }
+        .box1:hover{
+            transform: scale(1.1);
+        }
+        .box2:hover{
+            transform: translate(50%, -100%);
+        }
+        .box3:hover{
+            transform: rotateY(360deg);
+        }
+        .box4:hover{
+            transform: skew(20deg);
+        }
+        .sect2{
+            height: 100vh;
+            background-color: black;
+        }
+        .sect2 img:first-child{
+        width: 200px;
+            animation-name: earth;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;*/
+        }
+        .sect2 img:last-child{
+            width: 200px;
+        }
+        .galaxy{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 180px;
+        }
+        .galaxy{
+            animation-name: earth;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @-webkit-keyframes earth {
+            from  {
+                transform: rotate(0 deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <section class="sect1">
+    <div class="container">
+        <div class="box box1"><h1>Name</h1><h2>Vilayat</h2></div>
+        <div class="box box2"><h1>Surname</h1><h2>Zeynalli</h2></div>
+        <div class="box box3"><h1>Year of birth</h1><h2>21.05.2003</h2></div>
+        <div class="box box4"><h1>City</h1><h2>IMISHLI</h2></div>
+    </div>
+</section>
+    <section class="sect2">
+        <div class="galaxy">
+        <img src="WhatsApp Image 2023-03-28 at 23.11.25.jpeg" alt="">
+        <img src="WhatsApp Image 2023-03-28 at 23.11.24.jpeg" alt="">
+    </div>
+    </section>
+</body>
+</html>
