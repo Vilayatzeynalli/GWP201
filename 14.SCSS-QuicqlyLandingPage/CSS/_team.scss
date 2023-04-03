@@ -1,0 +1,117 @@
+.sec2{ 
+    width: 1440px;
+    height: 1000px;
+    background: #FAFAFA;
+   
+    .container3{
+        
+        .text3{
+            .text4{
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                
+                h2{
+                   width: 570px;
+                   height: 50px;
+                   font-family: 'Plus Jakarta Sans';
+                   font-size: 30px;
+                   text-align: center;       
+                    
+                }
+                p{
+                    width: 450px;
+                    height: 48px;
+                    font-family: 'Plus Jakarta Sans';
+                    font-size: 16px;
+                    text-align: center;
+                    color: #072125;
+                }
+
+            }
+        }
+        .text5{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #20484f;
+            gap: 30px;
+            padding: 50px;
+            img{
+                width: 250px;
+                height: 250px;
+                
+            }
+            h4{
+                width: 163px;
+                height: 30px;
+                font-size: 24px;
+                font-family: 'Plus Jakarta Sans';
+                margin: 10px;
+            }
+            p{
+                width: 214px;
+                height: 27px;
+                font-family: 'Plus Jakarta Sans';
+                margin: 10px;
+
+            }
+           ul{
+            display: flex;
+            text-align: center;
+            margin: 10px;
+            gap: 20px;
+            li{
+                width: 20px;
+                height: 19.92px;
+                border: 1px solid ;
+                border-radius: 100%;
+                
+              }
+           }
+        }
+        .text10{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #20484f;
+            gap: 30px;
+            padding: 50px;
+            img{
+                width: 250px;
+                height: 250px;
+                
+            }
+            h4{
+                width: 163px;
+                height: 30px;
+                font-size: 24px;
+                font-family: 'Plus Jakarta Sans';
+                margin: 10px;
+            }
+            p{
+                width: 214px;
+                height: 27px;
+                font-family: 'Plus Jakarta Sans';
+                margin: 10px;
+
+            }
+           ul{
+            display: flex;
+            text-align: center;
+            margin: 10px;
+            gap: 20px;
+            li{
+                width: 20px;
+                height: 19.92px;
+                border: 1px solid ;
+                border-radius: 100%;
+                
+              }
+           }
+        }
+
+        }
+        }
+    
