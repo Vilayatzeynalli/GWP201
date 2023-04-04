@@ -5,22 +5,11 @@ header{
     left: 75px;
     background: #20484F;
     .container{
-        .header{
-            .icon{
-                display: none;
+        .menu{
+            display: none;
         }
-            }
-            @media only screen and (max-width: 767px) {
-                nav{
-                    ul{
-                        li{
-                            display: none;
-                        }
-                    }
-                }
-                
-            }
-            
+        .header{
+            }  
                 h4{
                     position: absolute;
                     width: 99px;
@@ -69,6 +58,18 @@ header{
                         }
                        
                     }
+                }
+                @media only screen and (max-width: 767px) {
+                    .header{
+                        nav{
+                            display: none;
+                        }
+                        .menu{
+                            display: flex;
+                        }
+    
+                    }
+                    
                 }
                 
             }

@@ -1,61 +1,41 @@
 .footer{
-    width: 1440px;
-    height: 500px;
+    width: 1400px;
+    height: 450px;
     background-color: #072125;
-    .text15{ 
-        padding: 100px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-family: 'Plus Jakarta Sans', sans-serif;
-        color: #FFFFFF;
-        .text16{
-            line-height: 40px;
-            line-height: 35px;
-            
-            h3{
-                font-size: 30px; 
-               
-              }
-              .text20{
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    .footer2{
+        .footer3{
+            display: flex;
+                justify-content: space-around;
+                align-items: center;
+                line-height: 30px;
+                padding: 100px;
+            h1{
+                font-size: 32px;
+            }
+            .footer4{
+                line-height: 40px;
                 
-                .email{
-                    width: 200px;
-                    height: 40px;
-                    
-                    
-                }
-                button{
-                    width: 100px;
-                    height: 40px;
-                }
-              }
-
+                .footer7{
+                    input{
+                        width: 250px;
+                        height: 35px;
+                    }
+                    button{
+                        height: 35px;
+                        width: 100px;
                         
                     }
-                    .text21{
-                        display: flex;
-                            justify-content: space-around;
-                            align-items: center;
-                            column-gap: 50px;
-                            line-height: 35px;
-                            
-                        }
-                        h5{
-                            font-size: 25px;
-                            p{
-                                font-size: 15px;
-                            }
-                        }
-                    }
-                }
-                h5{
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    color: #FFFFFF;
-                    font-size: 18px;
-                    font-family: 'Plus Jakarta Sans', sans-serif;
-                    padding: 8px;
-
-                }
+                }  
+            }
+        }
+    }  
+    .footer11{
+        h2{
+            text-align: center;
+            padding: 20px;
+        }
+    }
+    }
+ 

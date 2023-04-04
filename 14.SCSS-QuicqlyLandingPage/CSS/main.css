@@ -7,14 +7,8 @@ header {
   background: #20484F;
 }
 
-header .container .header .icon {
+header .container .menu {
   display: none;
-}
-
-@media only screen and (max-width: 767px) {
-  header .container nav ul li {
-    display: none;
-  }
 }
 
 header .container h4 {
@@ -79,6 +73,17 @@ header .container nav .button4 .button3 {
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+@media only screen and (max-width: 767px) {
+  header .container .header nav {
+    display: none;
+  }
+  header .container .header .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -91,13 +96,57 @@ header .container nav .button4 .button3 {
 .sec1 {
   width: 1440px;
   height: 825px;
+  background-color: #FAFAFA;
 }
 
 .sec1 .container2 {
   margin: 50px;
 }
 
-.sec1 .container2 .text1 {
+.sec1 .box {
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 350px;
+  height: 100px;
+  position: absolute;
+  left: 1050px;
+  top: 300px;
+  background-color: #FFFFFF;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Plus Jakarta Sans';
+}
+
+.sec1 .box2 {
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 430px;
+  height: 180px;
+  position: absolute;
+  left: 780px;
+  top: 610px;
+  background-color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans';
+  gap: 8px;
+  font-size: 25px;
+  color: #072125;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 15px;
+}
+
+.sec1 .box2 i {
+  font-size: 60px;
+}
+
+.sec1 .text1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -109,17 +158,26 @@ header .container nav .button4 .button3 {
           align-items: center;
 }
 
-.sec1 .container2 .text1 .text2 h5 {
+.sec1 .text1 .text2 h5 {
   width: 239px;
   height: 23px;
   font-family: 'Plus Jakarta Sans';
   font-size: 18px;
   color: #20484F;
-  margin: 40px;
-  margin-left: 120px;
+  margin: 50px;
+  margin-left: 130px;
 }
 
-.sec1 .container2 .text1 .text2 h1 {
+.sec1 .text1 .text2 .image3 img {
+  position: absolute;
+  width: 412px;
+  height: 233px;
+  left: 367px;
+  top: 380px;
+  z-index: 1;
+}
+
+.sec1 .text1 .text2 h1 {
   width: 557px;
   height: 154px;
   font-style: normal;
@@ -130,8 +188,8 @@ header .container nav .button4 .button3 {
   margin-left: 120px;
 }
 
-.sec1 .container2 .text1 .text2 p {
-  margin-left: 120px;
+.sec1 .text1 .text2 p {
+  margin-left: 125px;
   width: 483px;
   height: 72px;
   font-size: 24px;
@@ -139,7 +197,7 @@ header .container nav .button4 .button3 {
   color: #072125;
 }
 
-.sec1 .container2 .text1 .text2 .button {
+.sec1 .text1 .text2 .button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,10 +210,10 @@ header .container nav .button4 .button3 {
           align-items: flex-start;
   font-style: normal;
   padding: 30px 36px;
-  margin-left: 96px;
+  margin-left: 90px;
 }
 
-.sec1 .container2 .text1 .text2 .button .button1 {
+.sec1 .text1 .text2 .button .button1 {
   font-family: 'Plus Jakarta Sans';
   width: 136px;
   height: 58px;
@@ -164,7 +222,7 @@ header .container nav .button4 .button3 {
   color: #FFFFFF;
 }
 
-.sec1 .container2 .text1 .text2 .button .button2 {
+.sec1 .text1 .text2 .button .button2 {
   font-family: 'Plus Jakarta Sans';
   width: 168px;
   height: 58px;
@@ -173,16 +231,24 @@ header .container nav .button4 .button3 {
   border-radius: 8px;
 }
 
-.sec1 .container2 .text1 .text2 .button .button2:hover {
+.sec1 .text1 .text2 .button .button2:hover {
   background-color: #20484F;
 }
 
-.sec1 .container2 .text1 .image img {
+.sec1 .text1 .image img {
   margin: 120px;
   width: 415px;
   height: 490px;
   border: 1px solid #c4c4c4;
   border-radius: 12px;
+}
+
+.sec1 .text1 .image .image2 img {
+  position: absolute;
+  width: 541px;
+  height: 601px;
+  left: 700px;
+  top: 80px;
 }
 
 .sec2 {
@@ -191,7 +257,7 @@ header .container nav .button4 .button3 {
   background: #FAFAFA;
 }
 
-.sec2 .container3 .text3 .text4 {
+.container3 .text3 .text4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,7 +273,7 @@ header .container nav .button4 .button3 {
           align-items: center;
 }
 
-.sec2 .container3 .text3 .text4 h2 {
+.container3 .text3 .text4 h2 {
   width: 570px;
   height: 50px;
   font-family: 'Plus Jakarta Sans';
@@ -215,7 +281,7 @@ header .container nav .button4 .button3 {
   text-align: center;
 }
 
-.sec2 .container3 .text3 .text4 p {
+.container3 .text3 .text4 p {
   width: 450px;
   height: 48px;
   font-family: 'Plus Jakarta Sans';
@@ -224,7 +290,7 @@ header .container nav .button4 .button3 {
   color: #072125;
 }
 
-.sec2 .container3 .text5 {
+.container3 .text5 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -239,12 +305,18 @@ header .container nav .button4 .button3 {
   padding: 50px;
 }
 
-.sec2 .container3 .text5 img {
+.container3 .text5 img {
   width: 250px;
   height: 250px;
 }
 
-.sec2 .container3 .text5 h4 {
+.container3 .text5 img:hover {
+  border: 1px solid gray;
+  border-radius: 12px;
+  background-color: gray;
+}
+
+.container3 .text5 h4 {
   width: 163px;
   height: 30px;
   font-size: 24px;
@@ -252,14 +324,14 @@ header .container nav .button4 .button3 {
   margin: 10px;
 }
 
-.sec2 .container3 .text5 p {
+.container3 .text5 p {
   width: 214px;
   height: 27px;
   font-family: 'Plus Jakarta Sans';
   margin: 10px;
 }
 
-.sec2 .container3 .text5 ul {
+.container3 .text5 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -268,14 +340,14 @@ header .container nav .button4 .button3 {
   gap: 20px;
 }
 
-.sec2 .container3 .text5 ul li {
+.container3 .text5 ul li {
   width: 20px;
   height: 19.92px;
   border: 1px solid;
-  border-radius: 100%;
+  border-radius: 50%;
 }
 
-.sec2 .container3 .text10 {
+.container3 .text10 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -290,12 +362,18 @@ header .container nav .button4 .button3 {
   padding: 50px;
 }
 
-.sec2 .container3 .text10 img {
+.container3 .text10 img {
   width: 250px;
   height: 250px;
 }
 
-.sec2 .container3 .text10 h4 {
+.container3 .text10 img:hover {
+  border: 1px solid gray;
+  border-radius: 12px;
+  background-color: gray;
+}
+
+.container3 .text10 h4 {
   width: 163px;
   height: 30px;
   font-size: 24px;
@@ -303,14 +381,14 @@ header .container nav .button4 .button3 {
   margin: 10px;
 }
 
-.sec2 .container3 .text10 p {
+.container3 .text10 p {
   width: 214px;
   height: 27px;
   font-family: 'Plus Jakarta Sans';
   margin: 10px;
 }
 
-.sec2 .container3 .text10 ul {
+.container3 .text10 ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,7 +397,7 @@ header .container nav .button4 .button3 {
   gap: 20px;
 }
 
-.sec2 .container3 .text10 ul li {
+.container3 .text10 ul li {
   width: 20px;
   height: 19.92px;
   border: 1px solid;
@@ -327,79 +405,46 @@ header .container nav .button4 .button3 {
 }
 
 .footer {
-  width: 1440px;
-  height: 500px;
+  width: 1400px;
+  height: 450px;
   background-color: #072125;
+  color: #FFFFFF;
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.footer .text15 {
+.footer .footer2 .footer3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 30px;
   padding: 100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  color: #FFFFFF;
 }
 
-.footer .text15 .text16 {
+.footer .footer2 .footer3 h1 {
+  font-size: 32px;
+}
+
+.footer .footer2 .footer3 .footer4 {
   line-height: 40px;
-  line-height: 35px;
 }
 
-.footer .text15 .text16 h3 {
-  font-size: 30px;
+.footer .footer2 .footer3 .footer4 .footer7 input {
+  width: 250px;
+  height: 35px;
 }
 
-.footer .text15 .text16 .text20 .email {
-  width: 200px;
-  height: 40px;
-}
-
-.footer .text15 .text16 .text20 button {
+.footer .footer2 .footer3 .footer4 .footer7 button {
+  height: 35px;
   width: 100px;
-  height: 40px;
 }
 
-.footer .text15 .text21 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: 50px;
-          column-gap: 50px;
-  line-height: 35px;
-}
-
-.footer .text15 h5 {
-  font-size: 25px;
-}
-
-.footer .text15 h5 p {
-  font-size: 15px;
-}
-
-h5 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #FFFFFF;
-  font-size: 18px;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  padding: 8px;
+.footer .footer11 h2 {
+  text-align: center;
+  padding: 20px;
 }
 /*# sourceMappingURL=main.css.map */
