@@ -1,0 +1,38 @@
+.sec2{
+    .container2{
+        .imgText{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        .text{
+         
+            h2{
+                font-size: 40px;
+                width: 500px;
+                text-align: center;
+                font-family: 'Julius Sans One', sans-serif;
+            }
+            p{
+                width: 500px;
+                text-align: center;
+                font-family: 'Aclonica', sans-serif;
+                color: gray;
+            }
+        }
+        }
+    }
+}
+@media only screen and (max-width: 767px){
+.sec2{
+    .container2{
+        .imgText{
+           flex-direction: column;
+          .img{
+            img{
+            
+            }
+          }
+        }
+    }
+}
+}
