@@ -1,6 +1,7 @@
 # GWP201 
 
 # Deployment Links
+* Loopstudios Landing Page - https://relaxed-pasca-f64714.netlify.app/
 * 14.SCSS-QuicqlyLandingPage - https://idyllic-khapse-a58bf3.netlify.app/
 * 14.Sass-ClassWork - https://dulcet-dusk-f4347e.netlify.app/
 * 13.Animations - https://incredible-selkie-a3d18a.netlify.app/
